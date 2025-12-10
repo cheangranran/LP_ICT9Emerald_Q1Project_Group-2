@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; 
+rel="stylesheet">  
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+      .navbar-custom { background-color: #052b57; } 
+      .nav-btn { background-color: #ffffff; color: #052b57; border: none; }
+      .nav-btn:hover { background-color: #f1f1f1; }
+
+      .logo-box {
+    background: #ffffff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
+  .logo-box img { height: 36px; display: block; }
+
+      body { padding-top: 72px; }
+
+        .responsive-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: calc(100vh - 180px);
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  .section-wrap { padding: 3rem 0; }
+  .section-title { color: #052b57; font-weight: 700; font-size: 2rem; margin-bottom: .5rem; }
+  .section-sub { color: #666; max-width: 900px; margin: 0.5rem auto 1.5rem; text-align:center; }
+
+  .card-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+  @media (max-width: 992px) { .card-grid { grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 576px) { .card-grid { grid-template-columns: 1fr; } }
+
+  .card-item { text-align: center; }
+  .card-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(2,18,43,0.08);
+    display:block;
+    margin: 0 auto;
+  }
+  .card-caption { margin-top: .6rem; font-weight: 600; color: #222; font-size: .95rem; }
+  .programs .card-item img { height: 200px; }
+
+    </style>
+
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container-fluid no-gutter">
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="#" style="margin-left:8px;">
+        <span class="logo-box">
+        
+          <img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/ob-logo.png" alt="School Logo">
+        </span>
+        <span class="fw-semibold text-white ms-5">O.B. Montessori Center</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="filter: invert(1)"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="ms-auto d-flex align-items-center pe-3">
+          <a class="btn nav-btn square-ish mx-1" href="page1">Home Page</a>
+          <a class="btn nav-btn square-ish mx-1" href="page2">Course Offer</a>
+          <a class="btn nav-btn square-ish mx-1" href="page3">Contact Us</a>
+          <a class="btn nav-btn square-ish mx-1" href="page4">Enroll Now </a>
+          <a class="btn nav-btn square-ish mx-1" href="page5">About the Group Members</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<br>
+
+<h2 class="text-center text-primary" >O.B. Montessori Center</h2>
+<br>
+
+<h1 class="text-center text-primary"> Educating Future Leaders</h1>
+<br>   
+<p class="text-center">At Operation Brotherhood Montessori Center, each child is nurtured in the holistic method of Dr. Maria Montessori.</p>
+
+<img class="responsive-img" src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/053bbc8c-f68a-4a6f-ac1e-73adfc595e01/O.B.+Montessori+Center+Grade+School+Primary?format=2500w">
+<br>
+<p class="text-center">Welcome to the O.B. Montessori Center in the Philippines!</p>
+<p class="text-center">We are a progressive pre-k to 12 co-educational school, offering a viable alternative to international schools. At OBMC, we blend tradition and innovation to prepare a child for life. </p>
+<p class="text-center">Our mission is to transform our students into self-developing and productive individuals who can succeed, direct, and influence the future of an ever-changing world. </p>
+<p class="text-center">Explore our programs and discover the vibrant community that makes OBMC a unique place for a child to grow and develop.</p>
+
+<section class="section-wrap container">
+    <h2 class="section-title text-center">Campuses</h2>
+    <p class="section-sub">Come and visit our facilities to experience what each OBMC campus can offer your child and family.</p>
+
+    <div class="card-grid">
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/42cc9679-9656-4904-b843-0554ac012475/O.B.+Montessori+Center+Angeles+Campus?format=2500w" alt="Angeles">
+        <div class="card-caption">Angeles</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/0ac7bf3e-e1f0-47e7-b212-e24b8696f03c/O.B.+Montessori+Center+Fairview+Campus?format=2500w" alt="Fairview">
+        <div class="card-caption">Fairview</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/158c4532-1ab3-4ce5-8ed4-f59ce7e847d2/O.B.+Montessori+Center+Greenhills+Campus?format=2500w" alt="Greenhills">
+        <div class="card-caption">Greenhills</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/c4c28d4b-1195-400f-9ecb-ef207ac460cb/O.B.+Montessori+Center+LAS+PI%C3%91AS+CAMPUS?format=2500w" alt="Las Piñas">
+        <div class="card-caption">Las Piñas</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9e09a83b-d370-4734-92f3-7d23593a6757/O.B.+Montessori+Center+Sta.+Ana+Campus?format=2500w" alt="Sta. Ana">
+        <div class="card-caption">Sta. Ana</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-wrap container programs">
+    <h2 class="section-title text-center">Programs</h2>
+    <p class="section-sub">We provide developmentally appropriate programs for every stage — from Casa to Senior High.</p>
+
+    <div class="card-grid">
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/856e1d32-be2f-41b1-b4a3-6dac248dae82/O.B.+Montessori+Center+Program+-+Casa?format=2500w" alt="Casa (Ages 3-5)">
+        <div class="card-caption">Casa (Ages 3-5)</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/f578b9d4-3fe9-490a-a9ca-969578cf06bb/O.B.+Montessori+Center+Program+-+Grade+School+Primary?format=2500w" alt="Primary Grade School (Ages 6-8)">
+        <div class="card-caption">Primary Grade School (Ages 6-8)</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/20f7dd81-6dfc-4b31-a83e-c0e2b3b1acc5/O.B.+Montessori+Center+Program+-+Grade+School+Intermediate?format=2500w" alt="Intermediate Grade School (Ages 9-12)">
+        <div class="card-caption">Intermediate Grade School (Ages 9-12)</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9b942f9d-5526-43ea-b44a-f06254fc8571/O.B.+Montessori+Center+Program+-+Junior+High+School?format=2500w" alt="Junior High School (Ages 13-16)">
+        <div class="card-caption">Junior High School (Ages 13-16)</div>
+      </div>
+
+      <div class="card-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/94a0554e-f0cc-4c44-a0b2-7cb83b863254/O.B.+Montessori+Center+Program+-+Senior+High+School?format=2500w" alt="Senior High School (Ages 17-18)">
+        <div class="card-caption">Senior High School (Ages 17-18)</div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+</body>
+</html>
